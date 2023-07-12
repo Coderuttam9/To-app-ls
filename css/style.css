@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.app {
+    text-align: center;
+    width: 500px;
+    margin: 100px auto;
+}
+
+.app h2 {
+    margin-bottom: 10px;
+    color: forestgreen;
+}
+
+.todoinput {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.todoinput input {
+    width: 90%;
+    outline: none;
+    border: 0.5px solid rgba(179, 177, 179, 0.6);
+    font-size: 18px;
+}
+
+.sendbtn {
+    padding: 9px;
+    border: transparent;
+    color: green;
+    cursor: pointer;
+    width: 10%;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+ul li button i {
+    font-size: 22px;
+    background-color: transparent;
+    color: red;
+    border: none;
+}
